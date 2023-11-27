@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+.profile_img{
+	background-color: linen;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-top:6%;
+	
+}
+.profile_img i{
+	font-size: 100px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;    
+	
+}
+.prof_name{
+	font-size: 3em ;
+	color: black;
+	font-weight: 800;
+	padding-bottom: 1rem;
+}
+.profile_container{
+	display: flex;
+    flex-direction:column;
+    position:relative;
+    align-items:center;
+    justify-content: center;
+    margin-top:20px;
+}
+.profli{
+	line-height: 2em;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-family: ' Calibri, 'Trebuchet MS', sans-serif;
+	
+}
+.profile_container li{
+	list-style: none;
+	justify-content: center;
+}
+.prof_li{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.profile_container #email{
+	color:blue;
+}
+
+.lgout_btn{
+       background-color: lightcoral;
+       font-size: 17px;
+ }
