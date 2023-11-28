@@ -1,0 +1,89 @@
+@charset "ISO-8859-1";
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile section */
+#info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.profile_container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 500px;
+  display: flex;
+  flex-direction:column;
+  position:relative;
+  align-items:center;
+  justify-content: center;
+
+}
+
+.profile_img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile_img i {
+  font-size:120px;
+  color: #333;
+}
+
+.profile_img .prof_name {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Profile details */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left:2em;
+}
+
+li {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+  line-height: 2em;
+}
+
+.profli {
+  font-weight: bold;
+}
+
+.prof_li {
+  color: #555;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.actions form button {
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.actions form button:hover {
+  background-color: #23527c;
+}
